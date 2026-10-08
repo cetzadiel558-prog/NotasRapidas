@@ -1,25 +1,62 @@
 # Notas Rápidas
 
-## Descripción
+## 1. Descripción del proyecto
 
-Este proyecto es una aplicación de escritorio llamada **Notas Rápidas**, realizada en Python utilizando Tkinter.
+Este proyecto consiste en una aplicación gráfica llamada **Notas Rápidas**, desarrollada en Python utilizando la biblioteca **Tkinter**.
 
-La aplicación permite escribir notas y agregarlas a una lista. También se pueden eliminar y editar las notas. Además, tiene un contador que muestra cuántas notas hay actualmente.
+La aplicación permite al usuario escribir notas y administrarlas desde una ventana gráfica. Se pueden agregar nuevas notas, eliminar notas seleccionadas y editar una nota haciendo doble clic sobre ella.
 
-El objetivo de la actividad fue practicar la creación de una interfaz gráfica y el manejo de eventos con el teclado, mouse y botones.
+También se incluye un contador que muestra la cantidad de notas que existen actualmente.
 
-## Requisitos
+El propósito de esta actividad es practicar la creación de interfaces gráficas y el manejo de eventos en Python.
 
-Para ejecutar el programa se necesita:
+---
 
-- Python 3.10 o superior.
-- Tkinter.
+## 2. Objetivo
 
-Tkinter ya viene incluido normalmente con Python, por lo que no fue necesario instalar otra librería.
+El objetivo principal del programa es crear una aplicación sencilla que permita trabajar con diferentes elementos de una interfaz gráfica y responder a las acciones realizadas por el usuario.
 
-## ¿Cómo ejecutar el programa?
+Con este proyecto se practicó:
 
-Para ejecutar el programa primero se debe abrir una terminal en la carpeta donde se encuentra el archivo:
+- Creación de una ventana gráfica.
+- Uso de botones y campos de texto.
+- Manejo de listas.
+- Manejo de eventos del teclado.
+- Manejo de eventos del mouse.
+- Organización del código utilizando una clase.
+- Uso de funciones para realizar diferentes acciones.
 
-```text
-NotasRapidas.py
+---
+
+## 3. Dependencias
+
+Para ejecutar este proyecto se necesitan los siguientes requisitos:
+
+### Python
+
+Se utiliza **Python 3.10 o superior**.
+
+El programa fue desarrollado utilizando Python.
+
+### Tkinter
+
+Se utiliza **Tkinter** para crear la interfaz gráfica.
+
+Tkinter permite crear elementos como:
+
+- Ventanas.
+- Botones.
+- Campos de texto.
+- Etiquetas.
+- Listas.
+- Ventanas de diálogo.
+
+En la mayoría de las instalaciones de Python, Tkinter ya viene incluido, por lo que no es necesario instalar una biblioteca adicional mediante `pip`.
+
+### Librerías utilizadas
+
+El programa utiliza:
+
+```python
+import tkinter as tk
+from tkinter import simpledialog, messagebox
