@@ -2,7 +2,7 @@
 
 ## 1. Descripción del proyecto
 
-Este proyecto consiste en una aplicación gráfica llamada **Notas Rápidas**, desarrollada en Python utilizando la biblioteca **Tkinter**.
+Este actividad consiste en una aplicación gráfica llamada **Notas Rápidas**, desarrollada en Python utilizando la biblioteca **Tkinter**.
 
 La aplicación permite al usuario escribir notas y administrarlas desde una ventana gráfica. Se pueden agregar nuevas notas, eliminar notas seleccionadas y editar una nota haciendo doble clic sobre ella.
 
